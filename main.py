@@ -14,7 +14,7 @@ df = pd.read_csv('Breast_GSE45827.csv')
 #print(df.columns.tolist())
 df = df.set_index('samples') 
 # separate features and labels
-X = df.iloc[:, 1:].values # Features are all columns except the first/second
+X = df.iloc[:, 1:].values # Features are all columns except the first & second columns
 y = df.iloc[:, 0].values # Labels are the second column
 print(X.shape) # debug
 print(set(y)) # verify labels
