@@ -48,4 +48,5 @@ This project uses supervised deep learning to classify six breast cancer subtype
 
 1. Clone the repo and install dependencies:
    ```bash
-   pip install numpy pandas scikit-learn torch matplotlib
+   pip install -r requirements.txt
+
